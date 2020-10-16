@@ -7,7 +7,7 @@
     tools:context=".RatingFragment">
 
     <Button
-        android:id="@+id/btSummary"
+        android:id="@+id/btnSummary"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="@+id/tvRatingInstruction"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/tvRatingInstruction"
-        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+        app:layout_constraintTop_toBottomOf="@+id/rbGame" />
 
     <TextView
         android:id="@+id/tvRatingInstruction"
@@ -35,12 +35,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/ratingBar"
-        app:layout_constraintEnd_toEndOf="@+id/ratingBar"
-        app:layout_constraintStart_toStartOf="@+id/ratingBar" />
+        app:layout_constraintBottom_toTopOf="@+id/rbGame"
+        app:layout_constraintEnd_toEndOf="@+id/rbGame"
+        app:layout_constraintStart_toStartOf="@+id/rbGame" />
 
     <RatingBar
-        android:id="@+id/ratingBar"
+        android:id="@+id/rbGame"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
