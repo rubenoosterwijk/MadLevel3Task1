@@ -5,8 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.navigation.fragment.findNavController
+import com.example.madlevel3task1.ARG_GAME_NAME
+import com.example.madlevel3task1.ARG_GAME_RATING
 import kotlinx.android.synthetic.main.fragment_rating.*
 
 /**
@@ -34,7 +35,7 @@ class RatingFragment : Fragment() {
 
         val args = Bundle()
         args.putFloat(ARG_GAME_RATING, rbGame.rating)
-        args.putString(ARG_GAME_NAME, tvGame.toString())
+        args.putString(ARG_GAME_NAME, tvGame.text.toString())
 
         findNavController().navigate(R.id.action_RatingFragment_to_summaryFragment, args)
     }

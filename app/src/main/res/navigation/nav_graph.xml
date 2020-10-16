@@ -26,10 +26,10 @@
             app:destination="@id/StartFragment" />
         <action
             android:id="@+id/action_RatingFragment_to_summaryFragment"
-            app:destination="@id/summaryFragment" />
+            app:destination="@id/SummaryFragment" />
     </fragment>
     <fragment
-        android:id="@+id/summaryFragment"
+        android:id="@+id/SummaryFragment"
         android:name="com.example.madlevel3task1.SummaryFragment"
         android:label="fragment_summary"
         tools:layout="@layout/fragment_summary" >

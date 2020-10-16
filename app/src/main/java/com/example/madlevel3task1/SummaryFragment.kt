@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.fragment_summary.*
 const val ARG_GAME_NAME =  "arg_game_name"
 const val ARG_GAME_RATING = "arg_game_rating"
 
-class SummaryFragment : Fragment() {    
+class SummaryFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
